@@ -45,32 +45,10 @@ The **Product Management System** is a web application designed to manage produc
     mvn clean install
     mvn spring-boot:run
 
-Usage
+## Usage
 1. Navigate to the login page at http://localhost:8080/login.
 2. Log in using valid credentials.
 3. Add, view, edit, or delete products using the respective pages.
-
-Project Structure
-bash
-Copy code
-src/
-├── main/
-│   ├── java/
-│   │   ├── pm/Controller/
-│   │   ├── pm/Service/
-│   │   ├── pm/dao/
-│   │   ├── pm/dto/
-│   ├── resources/
-│   │   ├── application.properties
-│   ├── webapp/
-│       ├── WEB-INF/
-│       │   ├── jsp/
-│       │       ├── login.jsp
-│       │       ├── home.jsp
-│       │       ├── products.jsp
-│       │       ├── add-product.jsp
-├── pom.xml
-
 
 ## Contributing
    Contributions are welcome! Please fork the repository and submit a pull request for review.
